@@ -5,9 +5,19 @@
 		"color": {
 			"palette": [
 				{
-					"slug": "",
-					"color": "",
-					"name": ""
+					"slug": "primary",
+					"color": "#0F1E41",
+					"name": "Navy Blue"
+				},
+				{
+					"slug": "secondary",
+					"color": "#FFF9EA",
+					"name": "Cream White"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#CC3613",
+					"name": "Red"
 				}
 			],
 			"gradients": [
@@ -19,20 +29,29 @@
 			]
 		},
 		"spacing": {
-			"units": []
+			"units": [],
+			"blockGap": true
 		},
 		"layout": {
-			"contentSize": "",
-			"wideSize": ""
+			"contentSize": "960px",
+			"wideSize": "1200px"
 		},
 		"typography": {
 			"fontFamilies": [
-				{
-					"name": "",
-					"slug": "",
-					"fontFamily": ""
-				}
-			],
+                {
+                    "fontFamily": "\"Space Grotesk\", sans-serif",
+                    "slug": "primary",
+                    "name": "Primary",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Space Grotesk",
+                            "fontWeight": "300 400 700",
+                            "fontStyle": "normal",
+                            "src": [ "file:./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf" ]
+                        }
+                    ]
+                }
+            ],
 			"fontSizes":[
 				{
 					"slug": "",
