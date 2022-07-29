@@ -1,0 +1,4 @@
+body {
+    border: 10px solid var(--wp--preset--color--highlight);
+    min-height: 100vh;
+}

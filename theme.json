@@ -6,18 +6,33 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#0F1E41",
-					"name": "Navy Blue"
+					"color": "#2f4858",
+					"name": "Charcoal"
 				},
 				{
 					"slug": "secondary",
-					"color": "#FFF9EA",
+					"color": "#33658a",
 					"name": "Cream White"
 				},
 				{
 					"slug": "tertiary",
+					"color": "#86bbd8",
+					"name": "White"
+				},
+				{
+					"slug": "quartenary",
 					"color": "#CC3613",
 					"name": "Red"
+				},
+				{
+					"slug": "highlight",
+					"color": "#f6ae2d",
+					"name": "Gold"
+				},
+				{
+					"slug": "almostwhite",
+					"color": "#F0F6FA",
+					"name": "Almost White"
 				}
 			],
 			"gradients": [
@@ -39,15 +54,41 @@
 		"typography": {
 			"fontFamilies": [
                 {
-                    "fontFamily": "\"Space Grotesk\", sans-serif",
+                    "fontFamily": "\"Poppins\", sans-serif",
                     "slug": "primary",
                     "name": "Primary",
                     "fontFace": [
                         {
-                            "fontFamily": "Space Grotesk",
-                            "fontWeight": "300 400 700",
+                            "fontFamily": "Poppins",
+                            "fontWeight": "200 400 700",
                             "fontStyle": "normal",
-                            "src": [ "file:./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf" ]
+                            "src": [ "file:./assets/fonts/Poppins-Regular.ttf" ]
+                        }
+                    ]
+                },
+				{
+                    "fontFamily": "\"Poppins\", sans-serif",
+                    "slug": "heading",
+                    "name": "Heading",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Poppins",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "src": [ "file:./assets/fonts/Poppins-Bold.ttf" ]
+                        }
+                    ]
+                },
+				{
+                    "fontFamily": "\"Poppins\", sans-serif",
+                    "slug": "light",
+                    "name": "Light",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Poppins",
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "src": [ "file:./assets/fonts/Poppins-ExtraLight.ttf" ]
                         }
                     ]
                 }
@@ -65,12 +106,12 @@
 	"styles": {
 		"color": {
 			"text": "var(--wp--preset--color--primary)",
-			"background": "var(--wp--preset--color--secondary)"
+			"background": "var(--wp--preset--color--almostwhite)"
 		},
 		"elements": {
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--tertiary)"
+					"text": "var(--wp--preset--color--quartenary)"
 				}
 			}
 		},
